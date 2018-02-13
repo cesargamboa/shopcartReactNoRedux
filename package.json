@@ -23,5 +23,5 @@
   "devDependencies": {
     "gh-pages": "^1.1.0"
   },
-  "homepage": "http://cesargamboa.github.io/catalogReact"
+  "homepage": "http://cesargamboa.github.io/shopcartReactNoRedux"
 }
