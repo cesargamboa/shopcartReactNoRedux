@@ -15,7 +15,17 @@ class App extends Component {
   constructor() {
     super();
     this.state = {
-      items: [{ "id": 2, "game": "Mass Efect", "price": 29, "img": "./images/masseffect.jpg" }, { "id": 1, "game": "Resident Evil", "price": 39, "img": "https://raw.githubusercontent.com/cesargamboa/shopcartReactNoRedux/master/public/images/masseffect.jpg" }, { "id": 3, "game": "God of War", "price": 25, "img": "./images/godofwar4.jpg" }],
+      items: [{ "id": 2, "game": "Mass Efect", "price": 29, "img": "https://raw.githubusercontent.com/cesargamboa/shopcartReactNoRedux/master/public/images/masseffect.jpg" }, 
+      { "id": 1, "game": "Resident Evil", "price": 39, "img": "https://raw.githubusercontent.com/cesargamboa/shopcartReactNoRedux/master/public/images/residentevil.jpg" }, 
+      { "id": 3, "game": "God of War", "price": 25, "img": "https://raw.githubusercontent.com/cesargamboa/shopcartReactNoRedux/master/public/images/godofwar4.jpg" },
+      { "id": 4, "game": "Fallen", "price": 24, "img": "https://raw.githubusercontent.com/cesargamboa/shopcartReactNoRedux/master/public/images/fallen.jpg" },
+      { "id": 5, "game": "Watch Dogs 2", "price": 20, "img": "https://raw.githubusercontent.com/cesargamboa/shopcartReactNoRedux/master/public/images/watchdogs.jpg" },
+      { "id": 6, "game": "Okami", "price": 27, "img": "https://raw.githubusercontent.com/cesargamboa/shopcartReactNoRedux/master/public/images/okami.jpg" },
+      { "id": 7, "game": "Omen Of Sorrow", "price": 40, "img": "https://raw.githubusercontent.com/cesargamboa/shopcartReactNoRedux/master/public/images/omenofsorrow.jpg" },
+      { "id": 8, "game": "Battle Field", "price": 35, "img": "https://raw.githubusercontent.com/cesargamboa/shopcartReactNoRedux/master/public/images/battlefield.jpg" },
+      { "id": 9, "game": "Last Guardian", "price": 25, "img": "https://raw.githubusercontent.com/cesargamboa/shopcartReactNoRedux/master/public/images/lastguardian.jpg" },
+      { "id": 3, "game": "Battle Star", "price": 5, "img": "https://raw.githubusercontent.com/cesargamboa/shopcartReactNoRedux/master/public/images/battlestart.jpg" }
+    ],
       count: 0,
       price: 0,
       newCart: [],
