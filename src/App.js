@@ -24,7 +24,7 @@ class App extends Component {
       { "id": 7, "game": "Omen Of Sorrow", "price": 40, "img": "https://raw.githubusercontent.com/cesargamboa/shopcartReactNoRedux/master/public/images/omenofsorrow.jpg" },
       { "id": 8, "game": "Battle Field", "price": 35, "img": "https://raw.githubusercontent.com/cesargamboa/shopcartReactNoRedux/master/public/images/battlefield.jpg" },
       { "id": 9, "game": "Last Guardian", "price": 25, "img": "https://raw.githubusercontent.com/cesargamboa/shopcartReactNoRedux/master/public/images/lastguardian.jpg" },
-      { "id": 3, "game": "Battle Star", "price": 5, "img": "https://raw.githubusercontent.com/cesargamboa/shopcartReactNoRedux/master/public/images/battlestar.jpg" }
+      
     ],
       count: 0,
       price: 0,
