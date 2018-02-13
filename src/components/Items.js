@@ -1,7 +1,7 @@
 import React from 'react';
 import '../css/bootstrap.min.css';
 import '../css/bootstrap.min-lux.css';
-
+import { Link } from 'react-router-dom';
 const game = (props) => {
 
     return (
@@ -31,7 +31,7 @@ const game = (props) => {
                                 <button className="btn btn-warning text-primary" onClick={() => props.changed(props.price, props.game)}><span className="glyphicon glyphicon-shopping-cart"></span></button>
                             </td>
                             <td>
-                                <button className="btn btn-warning text-primary">Game Review</button>
+                                <button className="btn btn-warning text-primary" onClick={()=>props.info(props.information)}><Link to="/info">Game Review</Link></button>
                             </td>
                         </div>
                     </tr>
