@@ -72,8 +72,9 @@ class App extends Component {
       <div>
 
         {this.state.items.map((items, id) => {
+           console.log("hi")
+           console.log(items)
           return <Items
-
             game={items.game}
             price={items.price}
             img={items.img}
@@ -84,6 +85,7 @@ class App extends Component {
 
       </div>
     )
+
 
     mapItemstoCart = (
       this.state.newCart.map((x) => {
@@ -116,7 +118,7 @@ class App extends Component {
           <Route path="/bag">
             {showed}
           </Route>
-          <Route exact path="/" >
+          <Route  path="/shopcartReactNoRedux" >
             {itemstoRender}
 
           </Route>

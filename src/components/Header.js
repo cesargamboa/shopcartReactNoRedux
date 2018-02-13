@@ -19,7 +19,7 @@ const header = (props) => {
                 <div className="collapse navbar-collapse" id="navbarColor03">
                     <ul className="navbar-nav mr-auto">
                         <li className="nav-item active">
-                            <h1 className="nav-link btn-secondary"><strong><Link to="/">Store</Link></strong></h1>
+                            <h1 className="nav-link btn-secondary"><strong><Link to="/shopcartReactNoRedux">Store</Link></strong></h1>
                         </li>
                         <li className="nav-item">
                             <Link to="/news" className="nav-link  btn btn-secondary">News</Link>
