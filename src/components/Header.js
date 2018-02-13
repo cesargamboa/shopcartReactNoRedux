@@ -3,7 +3,7 @@ import '../css/bootstrap.min.css';
 import '../css/bootstrap.min-lux.css';
 import cesar from '../logos/cesar.png';
 import { Link } from 'react-router-dom';
-import "../residentevil.jpg"; 
+
 
 
 const header = (props) => {
